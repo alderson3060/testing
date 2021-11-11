@@ -1,0 +1,48 @@
+The Windows System PATH tells your PC where it can find specific directories that contain executable files. ipconfig.exe, 
+for example, is found in the C:\Windows\System32 directory, which is a part of the system PATH by default. 
+When you type ipconfig into a Command Prompt, Windows doesn’t need to know where that EXE is–it’ll check all the folders in its PATH until it finds the right one.
+
+=> add more fake & much data => wrong
+
+Đăng ký một DLL mới. Nếu bạn sao chép tập tin DLL một cách thủ công vào thư mục dành cho chương trình sử dụng, bạn sẽ cần phải đăng ký DLL đó trong Windows Registry (Nơi đăng ký của Windows) trước khi dùng. 
+Tham khảo tài liệu được cung cấp bởi chương trình xem bạn có cần thiết phải tiến hành bước này không (vì điều này là cực kỳ hiếm gặp đối với hầu hết các chương trình Windows)
+
+Dịch ngược tập tin DLL
+Việc mở một tập tin DLL mà không sử dụng trình biên dịch phục hồi (chẳng hạn như mở tệp DLL bằng Notepad) sẽ chỉ cho ra một mớ bòng bong những ký tự không thể đọc nổi.
+Nếu phát hiện một đoạn mã mà bạn không hiểu, bạn có thể sử dụng tính năng Quick Documentation (Tham khảo tài liệu Nhanh) để xem lệnh đó có tác dụng gì.
+
+    Đặt con trỏ chuột vào đoạn mã mà bạn cần nghiên cứu trong khung Code Viewer (Trình xem Mã).
+    Nhấn Ctrl + Q để tải cửa sổ Quick Documentation.
+    Đi theo các siêu liên kết để tìm hiểu sâu hơn về từng khía cạnh của mã mà bạn đang phân tích.
+
+https://interestingengineering.com/japan-shattered-internet-speed-record-319-terabits?utm_source=Facebook&utm_medium=Article&utm_campaign=organic&utm_content=Jul14&fbclid=IwAR3ouxdJf4PJiRQS8VX1lXUe8uSu9ln_6NWj8ZS_fBpNDUoMXavFqRrkcds
+https://interestingengineering.com/black-holes-reflect-universe?utm_source=Facebook&utm_medium=Article&utm_campaign=organic&utm_content=Jul12&fbclid=IwAR3AeZWpCekY3Wao_VR8I7hRFyxIjW5AS0kRjPk4MrXM5V24We5_74_8URU
+
+C:\Users\LENOVO\AppData\Local\Microsoft\Windows\INetCache
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+
+git init: tao repo trong may
+git clone,
+git pull: dong bo tu tren mang ve may
+git commit, git add va git add . :them file
+git push: dong bo tu may len mang
+git log, git status, decorate, graph, oneline
+
+git add index.html
+git commit -m "add index.html file"
+
+or create a new repository on the command line
+
+echo "# testing" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/alderson3060/testing.git
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/alderson3060/testing.git
+git branch -M main
+git push -u origin main
